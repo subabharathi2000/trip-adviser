@@ -1,0 +1,1032 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* title */
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    /* margin-left: 10%; */
+    border-bottom: solid silver 0.5px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+}
+
+.title__s1 {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.title__s1 img {
+    height: 50px;
+}
+
+.title__s1 h1 {
+    font-family: 600;
+}
+
+.title__s2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 15%;
+    gap: 5px;
+    margin-right: 50px;
+}
+
+.title__s2 p {
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 30px;
+    padding: 10px;
+    /* margin: 5px; */
+}
+
+.title__s2 p:hover {
+    background-color: rgb(241, 239, 239);
+    border-radius: 30px;
+    /* padding: 5px; */
+    align-items: center;
+    cursor: pointer;
+}
+
+.title__s3 {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    padding: 10px;
+}
+
+.title__s3 p {
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.title__s3:hover {
+    cursor: pointer;
+    background-color: rgb(241, 239, 239);
+    border-radius: 30px;
+}
+
+.title__s4 {
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+}
+
+.title__s4:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.title__s5 {
+    display: none;
+}
+
+/* whereto */
+.whereto {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 40px;
+    /* margin-bottom: 20px; */
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgb(99, 92, 92);
+    position: sticky;
+    top: 60px;
+    z-index: 2;
+    padding: 10px;
+    background-color: white;
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__list p {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+    border: 1px solid white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar__list p:hover {
+    color: black;
+    border-bottom: solid black 1px;
+    cursor: pointer;
+    font-weight: 36px;
+}
+
+/* search */
+.search {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    border: solid rgb(201, 200, 200) 1px;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: white;
+}
+
+.search input {
+    width: 500px;
+    margin-left: 10px;
+    border: none;
+    height: 20px;
+    font-size: 16px;
+    background-color: white;
+
+}
+
+.search input:focus {
+    outline: none;
+    background-color: white;
+}
+
+.search p {
+    margin-left: 100px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(47, 139, 78);
+    border-radius: 30px;
+}
+
+.search p:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+/* mobile image */
+.tripimg {
+    background-color: rgb(224, 201, 224);
+    height: 400px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.tripimg__mob img {
+    height: 400px;
+    margin-left: 5%;
+}
+
+.tripimg__text {
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 500px;
+}
+
+.tripimg__text__small {
+    font-size: small;
+    margin: 10px;
+}
+
+.tripimg__text h1 {
+    margin: 10px;
+    color: rgb(63, 2, 63);
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.tripimg__text__p {
+    margin: 10px;
+    color: rgb(63, 2, 63);
+}
+
+.tripimg__text__button {
+    margin: 10px;
+    border-radius: 30px;
+    margin-left: 5px;
+    padding: 10px;
+    width: 150px;
+    background-color: rgb(63, 2, 63);
+    color: white;
+}
+.tripimg-600{
+    display: none;
+}
+
+/* adventure */
+.adventure {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.adventure__title h2,
+.adventure__title p {
+    padding: 2px;
+}
+
+.adventure__image {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 20%;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.adventure__image {
+    position: relative;
+}
+
+.adventure__img1 img,
+.adventure__img2 img,
+.adventure__img3 img,
+.adventure__img4 img {
+    border-radius: 10px;
+    width: 250px;
+    position: relative;
+}
+
+.adventure__img1 img:hover,
+.adventure__img2 img:hover,
+.adventure__img3 img:hover,
+.adventure__img4 img:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.adventure__img1__h2,
+.adventure__img2__h2,
+.adventure__img3__h2,
+.adventure__img4__h2 {
+    position: absolute;
+    z-index: 1;
+    background-color: tan;
+    color: black;
+    font-weight: 400;
+    top: 200px;
+}
+
+.adventure__arrow img {
+    width: 50px;
+    position: absolute;
+    top: 100px;
+    left: 100%;
+    z-index: 1;
+}
+
+.adventure__arrow img {
+    width: 50px;
+    position: absolute;
+}
+
+.adventure__arrow img:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+/* tour-chennai */
+.tour-chennai {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.tour-chennai__title,
+.tour-chennai__card {
+    margin-top: 10px;
+}
+.tour-chennai__card h3, .tour-chennai__card p{
+    text-align: center;
+}
+
+.tour-chennai__image {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1; 
+    flex-basis: 20%;
+    gap: 20px;
+    position: relative;
+}
+
+.tour-chennai__card {
+    width: 250px;
+    height: 450px;
+    /* position: relative; */
+}
+
+.card__img {
+    border-radius: 10px;
+    width: 250px;
+}
+
+.heart {
+    position: absolute;
+    width: 30px;
+    z-index: 1;
+    left: 210px;
+    top: 10px;
+}
+
+.card__img:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.tour-chennai__arrow {
+    position: relative;
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    left: 95%;
+    z-index: 1;
+}
+
+.tour-chennai__arrow img {
+    width: 50px;
+    position: absolute;
+    width: 50px;
+    position: absolute;
+    top: 100px;
+    left: 100%;
+    z-index: 1;
+}
+
+.tour-chennai__arrow img:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+/* tour-world */
+.tour-world {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* explore */
+.explore {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.explore__image {
+    flex-grow: 1;
+    display: flex;
+    flex-basis: 20%;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+.explore__one, .explore__two, .explore__three{
+    width: 350px;
+}
+
+.explore__one,
+.explore__two,
+.explore__three {
+    width: 350px;
+    height: 300px;
+    position: relative;
+}
+.explore__one p,
+.explore__two p,
+.explore__three p {
+    width: 300px;
+}
+
+.explore__two {
+    position: relative;
+}
+
+.explore__img1,
+.explore__img2,
+.explore__img3 {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.explore__img1:hover,
+.explore__img2:hover,
+.explore__img3:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.explore__heart {
+    width: 30px;
+    position: absolute;
+    left: 300px;
+    top: 10px;
+}
+
+/* wanderer */
+.wanderer {
+    display: flex;
+    margin-top: 20px;
+    height: 500px;
+    gap: 50px;
+    background-color: papayawhip;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.wanderer__img {
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.wanderer__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.wanderer__text__p1,
+.wanderer__text__p2,
+.wanderer__text__p3 {
+    padding: 10px;
+}
+
+.wanderer__text h3 {
+    padding: 10px;
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.wanderer__text__p3 {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+.wanderer__text__p3:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+/* rental-homes */
+.rental-homes {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.homes {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.homes h3{
+    width: 220px;
+}
+.home__1 img {
+    width: 260px;
+    height: 250px;
+    border-radius: 10px;
+}
+.home__1 img:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+/* travellerschoice */
+.travellerchoice {
+    display: flex;
+    margin-top: 10%;
+    background-color: rgb(247, 243, 190);
+    padding: 20px;
+}
+
+.travellerchoice-right {
+    margin-right: 10%;
+}
+
+.travellerchoice-right img {
+    width: 500px;
+    border-radius: 1500px 00px 1500px 300px;
+}
+
+.travellerchoice-left {
+    margin-right: 10%;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+.travellerchoice-left__text h5 {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    width: 150px;
+    text-align: center;
+}
+
+.travellerchoice-left__text h1 {
+    /* font-size: xx-large; */
+    font-weight: 800;
+    padding: 10px;
+}
+
+.travellerchoice-left__text p {
+    padding: 10px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(241 217 217);
+    color: black;
+    font-size: smaller;
+}
+
+.footer p {
+    padding: 2px;
+}
+
+.footer p,
+i:hover {
+    cursor: pointer;
+}
+
+.footer__above,
+.footer__below {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__one {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__one p {
+    margin-left: 80px;
+}
+
+.footer__two,
+.footer__below__two {
+    margin-right: 100px;
+}
+
+.footer__below__one {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 80px;
+    width: 550px;
+    flex-wrap: wrap;
+    /* gap: 100px; */
+}
+.footer__below__s1{
+    display: flex;
+    align-items: center;
+}
+
+.footer__below__s2 a {
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(44, 43, 43);
+}
+
+.dropdwn1,
+.dropdwn2 {
+    padding: 10px;
+    border: solid grey 1px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 150px;
+}
+.footer__icon{
+    display: flex;
+    margin-left: 40%;
+    gap: 20px;
+}
+.footer600{
+    display: none;
+}
+
+
+
+
+
+
+/* media queries */
+@media screen and (max-width:800px) {
+    .body {
+        font-size: 11px;
+        margin: 0px;
+        background-color: black;
+        color: white;
+    }
+
+    .title {
+        margin-bottom: 0;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .title__s2 {
+        display: none;
+    }
+
+    .title__s3 {
+        display: none;
+    }
+
+    .title__s4 {
+        display: none;
+    }
+
+    .title__s5 {
+        margin-left: 20px;
+        display: flex;
+        /* flex-wrap: wrap;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center; */
+
+    }
+
+    .title__s5 p:hover {
+        cursor: pointer;
+        opacity: 0.75;
+    }
+
+    .whereto {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: none;
+    }
+
+    .navbar {
+        /* font-size: 12px; */
+        position: sticky;
+        top: 60px;
+        z-index: 2;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .tripimg {
+        margin-left: 0;
+        width: 100%;
+    }
+    .tripimg__mob{
+        width: 100%;
+    }
+    
+    .adventure {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    .adventure__image {
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 20%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .adventure__img1 img,
+    .adventure__img2 img,
+    .adventure__img3 img,
+    .adventure__img4 img {
+        width: 200px;
+    }
+
+    .adventure__arrow {
+        display: none;
+    }
+
+    .adventure__img1__h2,
+    .adventure__img2__h2,
+    .adventure__img3__h2,
+    .adventure__img4__h2 {
+        display: none;
+    }
+
+    .tour-chennai {
+        margin: 20px;
+        font-size: 14px;
+    }
+
+    .tour-chennai__title {
+        font-size: 14px;
+    }
+
+    .tour-chennai__image {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 20%;
+    }
+
+    .tour-chennai__arrow {
+        display: none;
+    }
+
+    .tour-chennai__card {
+        width: 200px;
+        height: 350px;
+    }
+    .card__img {
+        width: 200px;
+    }
+    .heart {
+        display: none;
+    }
+    .tour-world {
+        font-size: 14px;
+        margin: 20px;
+    }
+    .explore{
+        display: none;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .wanderer{
+        width: 100%;
+        background-color: papayawhip;
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+    }
+    .wanderer__img{width: 400px;}
+    .wanderer__text{
+        background-color: papayawhip;
+        padding-bottom: 30px; padding-left: 10px;
+        margin-left: 10px;
+    }
+    .rental-homes{
+        margin-top: 270px;
+        margin-left: 20px;
+    }
+    .home__text{
+        display: none;
+    }
+    .homes{
+        display: block;
+    text-align: center;
+    }
+    .travellerchoice{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        /* gap: 20px; */
+    }
+    .travellerchoice-left__text h1, .travellerchoice-left__text p,.travellerchoice-left__text h5{
+        padding: 5px;
+    }
+    .travellerchoice-right{
+        text-align: center;
+    }
+    .travellerchoice-right img{
+        width: 300px;
+        margin-top: 30px;
+    }
+    .footer{
+        display: none;
+    }
+    .footer600{
+        display: block;
+        padding: 20px;
+        margin-top: 20px;
+        background-color: rgb(255, 219, 225);
+    }
+    .footer600__title p{
+        padding: 5px;
+    }
+    .footer-below__600-1{
+        padding: 10px;
+    }
+    .footer-below__600s1{
+        display: flex;
+        text-align: center;
+    }
+    .footer-600__icon{
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        gap: 20px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .navbar {
+        font-size: 12px;
+    }
+
+    .title__s5 {
+        display: block;
+    }
+    /* .tripimg{
+        display: flex;
+        flex-direction: column;
+    }
+    .tripimg__text{
+        width: 200px;
+        padding-top: 0;
+    }
+    .tripimg__text__p, .tripimg__text h1{
+        font-size: 12px;
+    }
+    .tripimg__text__button, 
+    .tripimg__text__p, 
+    .tripimg__text__small{
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+    /* .tripimg__mob{
+        width: 80%;
+    } */
+ /* .tripimg__mob img{ 
+        
+        width: 300px; */
+        /* margin-top: 50%; */
+    /* }  */
+    /* .adventure{
+        
+    } */ 
+     .tripimg{
+        display: none;
+     }
+     .tripimg-600{
+        text-align: center;
+        display: block;
+        /* width: 130px; */
+     }
+    .adventure__img1, .adventure__img2, .adventure__img3, .adventure__img4{
+        width: 130px;
+    }
+    .adventure__img1 img, .adventure__img2 img, .adventure__img3 img, .adventure__img4 img{
+        width: 130px;
+    }
+    .adventure__img1__h2, .adventure__img2__h2, .adventure__img3__h2, .adventure__img4__h2{
+        width: 130px;
+    }
+    .adventure__arrow img{
+        display: none;
+    }
+    .card__img{
+        width: 130px;
+    }
+    .tour-chennai__card h3{
+        width: 130px;
+        text-align: center;
+    }
+    .amount{
+        width: 130px;
+        text-align: center;
+    }
+    .explore__img1, .explore__img2, .explore__img3{
+        width: 130px;
+    }
+    .wanderer__img{
+        width: 300px;
+    }
+    .home__text{
+        display: none;
+    }
+    .home__1 img, .home__1 h4, .home__1 p{
+        width: 130px;
+    }
+    .travellerchoice-right img{
+        width: 300px;
+        margin-top: 30px;
+    }
+   
+
+}
+
+
+
+
+@media screen and (max-width:450px) {
+   
+
+    .title__s5 {
+        display: block;
+    }
+    .navbar {
+        display: none;
+    }
+        
+ 
+     .tripimg{
+        display: none;
+     }
+     .tripimg-600{
+        text-align: center;
+        display: block;
+        /* width: 130px; */
+     }
+
+    .tour-chennai__image{
+        display: flex;
+    }
+
+    .tour-chennai__card{
+        width: 130px;
+        padding-left: 10px;
+    }
+   
+    .wanderer__img{
+        margin:10px;
+
+    }
+
+    .wanderer__text p{
+        font-size: 16px;
+    }
+    .wanderer__text h3{
+        font-size: 18px;
+    }
+
+.rental-homes{
+    font-size: 16px;
+}
+.home__1 img{
+    width: 80%;
+}
+.home__1 h4{
+    width: 70%;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.home__1 p{
+    width: 80%;
+    text-align: center;
+}
+
+.travellerchoice-right img{
+    width: 100%;
+}
+
+}
